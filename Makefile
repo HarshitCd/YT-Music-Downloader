@@ -1,5 +1,8 @@
 # Define the name of your virtual environment
 VENV_NAME := music_dl
+DOWNLOAD_PATH := <add-download-path>
+
+export DOWNLOAD_PATH
 
 # Define the Python interpreter to use
 PYTHON := python3

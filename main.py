@@ -12,7 +12,7 @@ def get_music_links() -> list:
     for song in liked['tracks']:
         links.append(f"https://music.youtube.com/watch?v={song['videoId']}")
 
-    return links
+    return links[:2]
 
 def convert_mp4_to_mp3(filename: str) -> None:
     try:

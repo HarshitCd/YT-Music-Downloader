@@ -3,10 +3,11 @@ The project downloads the audio files of all the songs in your liked songs in yo
 
 ## Setup
 ``` terminal
-cd music_downloader
+cd YT_Music_Downloader
+```
+Open the `Makefile` and add your download path here `DOWNLOAD_PATH := <add-download-path>`
 
-export DOWNLOAD_PATH=<desired-path>
-
+``` terminal
 make execute
 make run
 ```
